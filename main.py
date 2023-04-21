@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-posts = requests.get("https://api.npoint.io/7d9e5abc21f62bbcef83").json()
+posts = requests.get("https://api.npoint.io/ef76f82bb6da04f755f7").json()
 
 
 @app.route("/")
